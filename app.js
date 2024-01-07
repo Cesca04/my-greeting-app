@@ -1,7 +1,7 @@
 function greetings() {
 
     //    setting a guide to confirm subission of form
-        alert("Are you sure you want to submit?");
+        // alert("Are you sure you want to submit?");
         
     
         // collecting data from our html file
@@ -29,7 +29,7 @@ function greetings() {
         localStorage.setItem("data",  JSON.stringify(arryOfNamesTwo));
     
         clear.onclick=function(){
-            alert("Are you sure you want to clear your local storage?");
+            // alert("Are you sure you want to clear your local storage?");
     
             localStorage.removeItem("data");
     
